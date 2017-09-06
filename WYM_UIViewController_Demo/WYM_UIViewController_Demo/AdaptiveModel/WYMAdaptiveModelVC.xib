@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WYMAdaptiveModelVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是第二个标签" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kld-SR-q3y">
+                    <rect key="frame" x="146.33333333333331" y="181" width="121.33333333333331" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是第一标签" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojQ-hh-YEq">
+                    <rect key="frame" x="155" y="80" width="104" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kld-SR-q3y" firstAttribute="leading" secondItem="ojQ-hh-YEq" secondAttribute="trailing" constant="40" id="3kD-Gx-6Bh"/>
+                <constraint firstAttribute="trailing" secondItem="kld-SR-q3y" secondAttribute="trailing" constant="40" id="61r-bR-3DA"/>
+                <constraint firstItem="kld-SR-q3y" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Bi8-vu-Ma6"/>
+                <constraint firstItem="kld-SR-q3y" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Brk-b8-Zfk"/>
+                <constraint firstItem="kld-SR-q3y" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ElB-a5-J91"/>
+                <constraint firstItem="ojQ-hh-YEq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Yyt-xf-69h"/>
+                <constraint firstItem="ojQ-hh-YEq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="dA7-DE-Mtj"/>
+                <constraint firstItem="ojQ-hh-YEq" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="g0g-OH-bb3"/>
+                <constraint firstItem="kld-SR-q3y" firstAttribute="top" secondItem="ojQ-hh-YEq" secondAttribute="bottom" constant="80" id="jda-av-FpP"/>
+                <constraint firstItem="ojQ-hh-YEq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="jnB-jm-YD2"/>
+                <constraint firstItem="ojQ-hh-YEq" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="kWR-G2-fcY"/>
+                <constraint firstItem="kld-SR-q3y" firstAttribute="width" secondItem="ojQ-hh-YEq" secondAttribute="width" id="l8t-hZ-5j5"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="g0g-OH-bb3"/>
+                    <exclude reference="jnB-jm-YD2"/>
+                    <exclude reference="kWR-G2-fcY"/>
+                    <exclude reference="3kD-Gx-6Bh"/>
+                    <exclude reference="61r-bR-3DA"/>
+                    <exclude reference="Bi8-vu-Ma6"/>
+                    <exclude reference="Brk-b8-Zfk"/>
+                    <exclude reference="l8t-hZ-5j5"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=regular">
+                <mask key="constraints">
+                    <exclude reference="Yyt-xf-69h"/>
+                    <exclude reference="dA7-DE-Mtj"/>
+                    <include reference="g0g-OH-bb3"/>
+                    <include reference="jnB-jm-YD2"/>
+                    <exclude reference="kWR-G2-fcY"/>
+                    <include reference="3kD-Gx-6Bh"/>
+                    <include reference="61r-bR-3DA"/>
+                    <include reference="Bi8-vu-Ma6"/>
+                    <exclude reference="Brk-b8-Zfk"/>
+                    <exclude reference="ElB-a5-J91"/>
+                    <exclude reference="jda-av-FpP"/>
+                    <include reference="l8t-hZ-5j5"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>
