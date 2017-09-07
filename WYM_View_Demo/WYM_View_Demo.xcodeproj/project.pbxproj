@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B571BD11F60DEE200D6DD04 /* WYMViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B571BCF1F60DEE200D6DD04 /* WYMViewVC.m */; };
+		3B571BD21F60DEE200D6DD04 /* WYMViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B571BD01F60DEE200D6DD04 /* WYMViewVC.xib */; };
 		3B57B1BE1F5FDE70001FB431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57B1BD1F5FDE70001FB431 /* main.m */; };
 		3B57B1C11F5FDE70001FB431 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57B1C01F5FDE70001FB431 /* AppDelegate.m */; };
 		3B57B1C41F5FDE70001FB431 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57B1C31F5FDE70001FB431 /* ViewController.m */; };
@@ -18,6 +20,10 @@
 		3B57B1F61F5FE299001FB431 /* WYMViewArchitectureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57B1F41F5FE299001FB431 /* WYMViewArchitectureVC.m */; };
 		3B57B1F71F5FE299001FB431 /* WYMViewArchitectureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B57B1F51F5FE299001FB431 /* WYMViewArchitectureVC.xib */; };
 		3B57B1FB1F5FF9C4001FB431 /* WYMArchitectureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57B1FA1F5FF9C4001FB431 /* WYMArchitectureView.m */; };
+		3B57B1FF1F601093001FB431 /* WYMWindowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57B1FD1F601093001FB431 /* WYMWindowVC.m */; };
+		3B57B2001F601093001FB431 /* WYMWindowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B57B1FE1F601093001FB431 /* WYMWindowVC.xib */; };
+		3BD54B291F6121AF0070CCDA /* WYMAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD54B271F6121AF0070CCDA /* WYMAnimationVC.m */; };
+		3BD54B2A1F6121AF0070CCDA /* WYMAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD54B281F6121AF0070CCDA /* WYMAnimationVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B571BCE1F60DEE200D6DD04 /* WYMViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMViewVC.h; sourceTree = "<group>"; };
+		3B571BCF1F60DEE200D6DD04 /* WYMViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMViewVC.m; sourceTree = "<group>"; };
+		3B571BD01F60DEE200D6DD04 /* WYMViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYMViewVC.xib; sourceTree = "<group>"; };
 		3B57B1B91F5FDE70001FB431 /* WYM_View_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYM_View_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B57B1BD1F5FDE70001FB431 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B57B1BF1F5FDE70001FB431 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,6 +68,12 @@
 		3B57B1F51F5FE299001FB431 /* WYMViewArchitectureVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYMViewArchitectureVC.xib; sourceTree = "<group>"; };
 		3B57B1F91F5FF9C4001FB431 /* WYMArchitectureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMArchitectureView.h; sourceTree = "<group>"; };
 		3B57B1FA1F5FF9C4001FB431 /* WYMArchitectureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMArchitectureView.m; sourceTree = "<group>"; };
+		3B57B1FC1F601093001FB431 /* WYMWindowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMWindowVC.h; sourceTree = "<group>"; };
+		3B57B1FD1F601093001FB431 /* WYMWindowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMWindowVC.m; sourceTree = "<group>"; };
+		3B57B1FE1F601093001FB431 /* WYMWindowVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYMWindowVC.xib; sourceTree = "<group>"; };
+		3BD54B261F6121AF0070CCDA /* WYMAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMAnimationVC.h; sourceTree = "<group>"; };
+		3BD54B271F6121AF0070CCDA /* WYMAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMAnimationVC.m; sourceTree = "<group>"; };
+		3BD54B281F6121AF0070CCDA /* WYMAnimationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYMAnimationVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +170,9 @@
 		3B57B1EF1F5FE25F001FB431 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				3BD54B261F6121AF0070CCDA /* WYMAnimationVC.h */,
+				3BD54B271F6121AF0070CCDA /* WYMAnimationVC.m */,
+				3BD54B281F6121AF0070CCDA /* WYMAnimationVC.xib */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -162,6 +180,9 @@
 		3B57B1F01F5FE25F001FB431 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3B571BCE1F60DEE200D6DD04 /* WYMViewVC.h */,
+				3B571BCF1F60DEE200D6DD04 /* WYMViewVC.m */,
+				3B571BD01F60DEE200D6DD04 /* WYMViewVC.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +190,9 @@
 		3B57B1F11F5FE25F001FB431 /* Windows */ = {
 			isa = PBXGroup;
 			children = (
+				3B57B1FC1F601093001FB431 /* WYMWindowVC.h */,
+				3B57B1FD1F601093001FB431 /* WYMWindowVC.m */,
+				3B57B1FE1F601093001FB431 /* WYMWindowVC.xib */,
 			);
 			path = Windows;
 			sourceTree = "<group>";
@@ -299,9 +323,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B57B2001F601093001FB431 /* WYMWindowVC.xib in Resources */,
+				3B571BD21F60DEE200D6DD04 /* WYMViewVC.xib in Resources */,
 				3B57B1CC1F5FDE70001FB431 /* LaunchScreen.storyboard in Resources */,
 				3B57B1C91F5FDE70001FB431 /* Assets.xcassets in Resources */,
 				3B57B1F71F5FE299001FB431 /* WYMViewArchitectureVC.xib in Resources */,
+				3BD54B2A1F6121AF0070CCDA /* WYMAnimationVC.xib in Resources */,
 				3B57B1C71F5FDE70001FB431 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,9 +355,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B57B1C41F5FDE70001FB431 /* ViewController.m in Sources */,
+				3BD54B291F6121AF0070CCDA /* WYMAnimationVC.m in Sources */,
 				3B57B1C11F5FDE70001FB431 /* AppDelegate.m in Sources */,
+				3B571BD11F60DEE200D6DD04 /* WYMViewVC.m in Sources */,
 				3B57B1F61F5FE299001FB431 /* WYMViewArchitectureVC.m in Sources */,
 				3B57B1FB1F5FF9C4001FB431 /* WYMArchitectureView.m in Sources */,
+				3B57B1FF1F601093001FB431 /* WYMWindowVC.m in Sources */,
 				3B57B1BE1F5FDE70001FB431 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,6 +595,7 @@
 				3B57B1E81F5FDE70001FB431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B57B1E91F5FDE70001FB431 /* Build configuration list for PBXNativeTarget "WYM_View_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +604,7 @@
 				3B57B1EB1F5FDE70001FB431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B57B1EC1F5FDE70001FB431 /* Build configuration list for PBXNativeTarget "WYM_View_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +613,7 @@
 				3B57B1EE1F5FDE70001FB431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
